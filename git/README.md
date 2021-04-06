@@ -26,7 +26,7 @@ To push the current branch and set the remote as upstream, use
 ## Connect a local project to a NEW _(empty)_ GitHub-REPO
 If you have already setup a new project in your local development-environment, and feel it's time to start putting it up on GitHub ... here's how it can be done
 * Make your local folder a git-repo
-  * ```
+  ```
   git init
   git add [at least one file]
   git commit -m "first commit"
@@ -39,7 +39,7 @@ If you have already setup a new project in your local development-environment, a
   * **Don't** initialize any of the proposed files _(README.md / License)_
   * This makes sure, that the GitHub-REPO will be empty!
 * Open Git Bash in the root folder of your local repo
-  *  ```
+  ```
   git remote add origin https://github.com/[YOUR-REPO].git
   git push -u origin main
   ```
