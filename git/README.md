@@ -32,7 +32,7 @@ If you have already setup a new project in your local development-environment, a
   git commit -m "first commit"
   git branch -M main
   ```
-* Finally I then open the project-folder with the ATOM-editor and commit the rest of the files and folders
+* Open the project-folder with the ATOM-editor and commit the rest of the files and folders
 * Setup **.gitignore** _(if necessary)_
   * See details here: https://docs.github.com/en/github/getting-started-with-github/ignoring-files
 * Login to your GitHub-account and create a new REPO _(both Public or Private will work)_
