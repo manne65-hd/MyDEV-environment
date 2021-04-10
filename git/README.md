@@ -43,3 +43,12 @@ If you have already setup a new project in your local development-environment, a
   git remote add origin https://github.com/[YOUR-REPO].git
   git push -u origin main
   ```
+
+## Delete _(obsolete)_ local and remote branches
+  ```
+  // delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+  ```
