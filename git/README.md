@@ -52,3 +52,6 @@ git branch -d localBranchName
 // delete branch remotely
 git push origin --delete remoteBranchName
   ```
+
+## Updating a forked REPO ..
+https://adrientorris.github.io/github/how-to-update-a-forked-repository-from-the-ui-on-github
