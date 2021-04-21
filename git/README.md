@@ -52,6 +52,22 @@ git branch -d localBranchName
 // delete branch remotely
 git push origin --delete remoteBranchName
   ```
+  
+## Rename a local branch and remote branch
+  ```
+  // Switch to the desired branch
+  git checkout old_branchname
+  
+  // rename the local branch
+  git branch -m new_branchname
+  
+  // If you’ve already pushed the old_branchname branch to the remote repository,
+  // perform the next steps to rename the remote branch.
+  git push origin -u new_branchname
+  
+  // Delete the old_branchname remote branch:
+  git push origin --delete old_branchname
+  ```
 
 ## Updating a forked REPO ..
 https://adrientorris.github.io/github/how-to-update-a-forked-repository-from-the-ui-on-github
